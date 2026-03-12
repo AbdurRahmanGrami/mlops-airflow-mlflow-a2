@@ -1,0 +1,44 @@
+[2026-03-08T10:31:00.956+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: titanic_mlops_pipeline.train_model manual__2026-03-08T10:29:45.208721+00:00 [queued]>
+[2026-03-08T10:31:00.964+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: titanic_mlops_pipeline.train_model manual__2026-03-08T10:29:45.208721+00:00 [queued]>
+[2026-03-08T10:31:00.965+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-08T10:31:00.976+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): train_model> on 2026-03-08 10:29:45.208721+00:00
+[2026-03-08T10:31:00.988+0000] {standard_task_runner.py:60} INFO - Started process 619 to run task
+[2026-03-08T10:31:00.991+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'titanic_mlops_pipeline', 'train_model', 'manual__2026-03-08T10:29:45.208721+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/mlops_***_mlflow_pipeline.py', '--cfg-path', '/tmp/tmpjsipohry']
+[2026-03-08T10:31:00.992+0000] {standard_task_runner.py:88} INFO - Job 96: Subtask train_model
+[2026-03-08T10:31:01.038+0000] {task_command.py:423} INFO - Running <TaskInstance: titanic_mlops_pipeline.train_model manual__2026-03-08T10:29:45.208721+00:00 [running]> on host 2a0172c45d39
+[2026-03-08T10:31:01.117+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='your_name' AIRFLOW_CTX_DAG_ID='titanic_mlops_pipeline' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2026-03-08T10:29:45.208721+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-08T10:29:45.208721+00:00'
+[2026-03-08T10:31:01.136+0000] {logging_mixin.py:188} INFO - ✓ Loaded encoded dataset: (891, 10)
+[2026-03-08T10:31:01.140+0000] {logging_mixin.py:188} INFO - ✓ Train size: (712, 9), Test size: (179, 9)
+[2026-03-08T10:31:01.767+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:31:01 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2026-03-08T10:31:01.974+0000] {logging_mixin.py:188} INFO - 
+✓ MLflow run started: 2d4f2e354209401fa2b127691b1a4ad2
+[2026-03-08T10:31:02.046+0000] {logging_mixin.py:188} INFO - ✓ Logged model_type: RandomForest
+[2026-03-08T10:31:02.119+0000] {logging_mixin.py:188} INFO - ✓ Logged hyperparameters: {'n_estimators': 100, 'max_depth': 5, 'random_state': 42}
+[2026-03-08T10:31:02.283+0000] {logging_mixin.py:188} INFO - ✓ Logged dataset sizes
+[2026-03-08T10:31:02.406+0000] {logging_mixin.py:188} INFO - 
+✓ Model trained: RandomForest
+[2026-03-08T10:31:04.686+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:31:04 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2026-03-08T10:31:05.072+0000] {logging_mixin.py:188} INFO - ✓ Model artifact logged to MLflow
+[2026-03-08T10:31:05.111+0000] {logging_mixin.py:188} INFO - 
+✓ XCom pushed: run_id, test_data_path, model_type
+[2026-03-08T10:31:05.127+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:31:05 INFO mlflow.tracking._tracking_service.client: 🏃 View run learned-steed-259 at: http://172.17.0.1:5000/#/experiments/1/runs/2d4f2e354209401fa2b127691b1a4ad2.
+[2026-03-08T10:31:05.127+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:31:05 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://172.17.0.1:5000/#/experiments/1.
+[2026-03-08T10:31:05.190+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-08T10:31:05.200+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=titanic_mlops_pipeline, task_id=train_model, execution_date=20260308T102945, start_date=20260308T103100, end_date=20260308T103105
+[2026-03-08T10:31:05.255+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-08T10:31:05.282+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

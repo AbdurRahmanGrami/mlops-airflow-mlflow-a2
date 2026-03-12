@@ -1,0 +1,33 @@
+[2026-03-08T10:51:30.801+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: titanic_mlops_pipeline.register_model manual__2026-03-08T10:50:02.441611+00:00 [queued]>
+[2026-03-08T10:51:30.812+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: titanic_mlops_pipeline.register_model manual__2026-03-08T10:50:02.441611+00:00 [queued]>
+[2026-03-08T10:51:30.812+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-08T10:51:30.825+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): register_model> on 2026-03-08 10:50:02.441611+00:00
+[2026-03-08T10:51:30.837+0000] {standard_task_runner.py:60} INFO - Started process 2135 to run task
+[2026-03-08T10:51:30.841+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'titanic_mlops_pipeline', 'register_model', 'manual__2026-03-08T10:50:02.441611+00:00', '--job-id', '141', '--raw', '--subdir', 'DAGS_FOLDER/mlops_***_mlflow_pipeline.py', '--cfg-path', '/tmp/tmptr6z_hi_']
+[2026-03-08T10:51:30.842+0000] {standard_task_runner.py:88} INFO - Job 141: Subtask register_model
+[2026-03-08T10:51:30.889+0000] {task_command.py:423} INFO - Running <TaskInstance: titanic_mlops_pipeline.register_model manual__2026-03-08T10:50:02.441611+00:00 [running]> on host 2a0172c45d39
+[2026-03-08T10:51:30.978+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='your_name' AIRFLOW_CTX_DAG_ID='titanic_mlops_pipeline' AIRFLOW_CTX_TASK_ID='register_model' AIRFLOW_CTX_EXECUTION_DATE='2026-03-08T10:50:02.441611+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-08T10:50:02.441611+00:00'
+[2026-03-08T10:51:31.008+0000] {logging_mixin.py:188} INFO - ── Model Registration ──
+[2026-03-08T10:51:31.008+0000] {logging_mixin.py:188} INFO -   Run ID:     5711d807b0244e4e8cf3216df675988a
+[2026-03-08T10:51:31.008+0000] {logging_mixin.py:188} INFO -   Model Type: RandomForest
+[2026-03-08T10:51:31.008+0000] {logging_mixin.py:188} INFO -   Accuracy:   0.8268
+[2026-03-08T10:51:31.056+0000] {logging_mixin.py:188} WARNING - Registered model 'titanic_survival_model' already exists. Creating a new version of this model...
+[2026-03-08T10:51:31.132+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:51:31 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: titanic_survival_model, version 2
+[2026-03-08T10:51:31.132+0000] {logging_mixin.py:188} WARNING - Created version '2' of model 'titanic_survival_model'.
+[2026-03-08T10:51:31.132+0000] {logging_mixin.py:188} INFO - 
+✓ Model registered successfully!
+[2026-03-08T10:51:31.133+0000] {logging_mixin.py:188} INFO -   Name:    titanic_survival_model
+[2026-03-08T10:51:31.133+0000] {logging_mixin.py:188} INFO -   Version: 2
+[2026-03-08T10:51:31.320+0000] {logging_mixin.py:188} INFO - 
+✓ Model description and tags set
+[2026-03-08T10:51:31.321+0000] {logging_mixin.py:188} INFO -   Description: Titanic survival model — RandomForest
+[2026-03-08T10:51:31.321+0000] {logging_mixin.py:188} INFO -   Tag status:  approved
+[2026-03-08T10:51:31.321+0000] {logging_mixin.py:188} INFO -   Tag accuracy: 0.8268
+[2026-03-08T10:51:31.586+0000] {logging_mixin.py:188} INFO - 
+✓ Registration tags logged to MLflow run
+[2026-03-08T10:51:31.599+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:51:31 INFO mlflow.tracking._tracking_service.client: 🏃 View run zealous-bear-104 at: http://172.17.0.1:5000/#/experiments/1/runs/5711d807b0244e4e8cf3216df675988a.
+[2026-03-08T10:51:31.599+0000] {logging_mixin.py:188} WARNING - 2026/03/08 10:51:31 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://172.17.0.1:5000/#/experiments/1.
+[2026-03-08T10:51:31.654+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-08T10:51:31.663+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=titanic_mlops_pipeline, task_id=register_model, execution_date=20260308T105002, start_date=20260308T105130, end_date=20260308T105131
+[2026-03-08T10:51:31.694+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-08T10:51:31.714+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

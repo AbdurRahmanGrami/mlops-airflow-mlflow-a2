@@ -1,0 +1,96 @@
+[2026-03-12T22:22:19.560+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:22:19.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:22:19.562+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:22:19.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:22:21.327+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:22:21.331+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:22:21.517+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:22:21.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:22:21.532+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:22:21.531+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:22:21.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 2.001 seconds
+[2026-03-12T22:22:51.748+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:22:51.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:22:51.751+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:22:51.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:22:52.879+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:22:52.881+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:22:52.897+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:22:52.897+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:22:52.907+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:22:52.907+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:22:52.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.178 seconds
+[2026-03-12T22:23:23.464+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:23:23.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:23:23.467+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:23:23.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:23:24.553+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:23:24.554+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:23:24.573+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:23:24.572+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:23:24.582+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:23:24.582+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:23:24.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.138 seconds
+[2026-03-12T22:23:54.870+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:23:54.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:23:54.874+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:23:54.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:23:55.970+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:23:55.972+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:23:55.989+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:23:55.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:23:55.998+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:23:55.998+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:23:56.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.148 seconds
+[2026-03-12T22:24:26.129+0000] {processor.py:161} INFO - Started process (PID=394) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:24:26.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:24:26.132+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:24:26.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:24:27.184+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:24:27.185+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:24:27.203+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:24:27.202+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:24:27.212+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:24:27.211+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:24:27.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.103 seconds
+[2026-03-12T22:24:57.294+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:24:57.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:24:57.296+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:24:57.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:24:58.314+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:24:58.316+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:24:58.333+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:24:58.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:24:58.342+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:24:58.342+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:24:58.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.068 seconds
+[2026-03-12T22:25:28.916+0000] {processor.py:161} INFO - Started process (PID=543) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:25:28.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:25:28.920+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:25:28.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:25:29.969+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:25:29.971+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:25:29.987+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:25:29.987+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:25:29.998+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:25:29.998+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:25:30.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.102 seconds
+[2026-03-12T22:26:00.331+0000] {processor.py:161} INFO - Started process (PID=612) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:26:00.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:26:00.334+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:26:00.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:26:01.393+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:26:01.394+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:26:01.411+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:26:01.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:26:01.420+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:26:01.419+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:26:01.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.108 seconds
+[2026-03-12T22:26:31.730+0000] {processor.py:161} INFO - Started process (PID=682) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:26:31.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:26:31.733+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:26:31.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:26:32.762+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:26:32.764+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:26:32.781+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:26:32.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:26:32.790+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:26:32.789+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:26:32.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.079 seconds
+[2026-03-12T22:27:02.892+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:27:02.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:27:02.894+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:27:02.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:27:03.905+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:27:03.906+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:27:03.923+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:27:03.923+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:27:03.933+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:27:03.933+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:27:03.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 1.060 seconds
+[2026-03-12T22:27:34.488+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:27:34.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:27:34.491+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:27:34.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:27:35.422+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:27:35.424+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:27:35.441+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:27:35.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:27:35.451+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:27:35.451+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:27:35.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 0.982 seconds
+[2026-03-12T22:28:05.908+0000] {processor.py:161} INFO - Started process (PID=886) to work on /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:28:05.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py for tasks to queue
+[2026-03-12T22:28:05.911+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:28:05.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:28:06.853+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2026-03-12T22:28:06.854+0000] {processor.py:840} INFO - DAG(s) 'titanic_mlops_pipeline' retrieved from /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py
+[2026-03-12T22:28:06.872+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:28:06.872+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T22:28:06.882+0000] {logging_mixin.py:188} INFO - [2026-03-12T22:28:06.882+0000] {dag.py:3823} INFO - Setting next_dagrun for titanic_mlops_pipeline to None, run_after=None
+[2026-03-12T22:28:06.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mlops_airflow_mlflow_pipeline.py took 0.993 seconds

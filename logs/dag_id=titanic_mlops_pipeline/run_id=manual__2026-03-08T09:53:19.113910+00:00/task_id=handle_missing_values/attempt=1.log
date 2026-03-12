@@ -1,0 +1,27 @@
+[2026-03-08T09:54:28.821+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: titanic_mlops_pipeline.handle_missing_values manual__2026-03-08T09:53:19.113910+00:00 [queued]>
+[2026-03-08T09:54:28.829+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: titanic_mlops_pipeline.handle_missing_values manual__2026-03-08T09:53:19.113910+00:00 [queued]>
+[2026-03-08T09:54:28.829+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-08T09:54:29.915+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): handle_missing_values> on 2026-03-08 09:53:19.113910+00:00
+[2026-03-08T09:54:29.929+0000] {standard_task_runner.py:60} INFO - Started process 736 to run task
+[2026-03-08T09:54:29.934+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'titanic_mlops_pipeline', 'handle_missing_values', 'manual__2026-03-08T09:53:19.113910+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/mlops_***_mlflow_pipeline.py', '--cfg-path', '/tmp/tmpurzhmpvh']
+[2026-03-08T09:54:29.935+0000] {standard_task_runner.py:88} INFO - Job 55: Subtask handle_missing_values
+[2026-03-08T09:54:29.987+0000] {task_command.py:423} INFO - Running <TaskInstance: titanic_mlops_pipeline.handle_missing_values manual__2026-03-08T09:53:19.113910+00:00 [running]> on host 672a6469409e
+[2026-03-08T09:54:30.092+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='your_name' AIRFLOW_CTX_DAG_ID='titanic_mlops_pipeline' AIRFLOW_CTX_TASK_ID='handle_missing_values' AIRFLOW_CTX_EXECUTION_DATE='2026-03-08T09:53:19.113910+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-08T09:53:19.113910+00:00'
+[2026-03-08T09:54:30.123+0000] {logging_mixin.py:188} INFO - ── Before Handling Missing Values ──
+[2026-03-08T09:54:30.125+0000] {logging_mixin.py:188} INFO -   Age missing:      177
+[2026-03-08T09:54:30.127+0000] {logging_mixin.py:188} INFO -   Embarked missing: 2
+[2026-03-08T09:54:30.131+0000] {logging_mixin.py:188} INFO - 
+✓ Age filled with median: 28.0
+[2026-03-08T09:54:30.133+0000] {logging_mixin.py:188} INFO - ✓ Embarked filled with mode: S
+[2026-03-08T09:54:30.135+0000] {logging_mixin.py:188} INFO - ✓ Cabin filled with: Unknown
+[2026-03-08T09:54:30.135+0000] {logging_mixin.py:188} INFO - 
+── After Handling Missing Values ──
+[2026-03-08T09:54:30.136+0000] {logging_mixin.py:188} INFO -   Age missing:      0
+[2026-03-08T09:54:30.137+0000] {logging_mixin.py:188} INFO -   Embarked missing: 0
+[2026-03-08T09:54:30.138+0000] {logging_mixin.py:188} INFO -   Cabin missing:    0
+[2026-03-08T09:54:30.148+0000] {logging_mixin.py:188} INFO - 
+✓ Cleaned dataset saved to: /opt/***/data/titanic_cleaned.csv
+[2026-03-08T09:54:30.190+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-08T09:54:30.214+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=titanic_mlops_pipeline, task_id=handle_missing_values, execution_date=20260308T095319, start_date=20260308T095428, end_date=20260308T095430
+[2026-03-08T09:54:30.266+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-08T09:54:30.310+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
